@@ -8,9 +8,22 @@ Healthcare Claims Intelligence is a healthcare analytics portfolio project focus
 
 **[View the Interactive Tableau Dashboard](https://public.tableau.com/shared/YT7JG4G57?:display_count=n&:origin=viz_share_link)**
 
-The dashboard answers the primary business question:
-
+### Business Question:
 **How can we reduce allowed cost?**
+
+#### Analysis & Key Findings
+The analysis identified **Outpatient Procedure** as the largest allowed cost category, accounting for approximately **27% of total allowed cost**. The main driver was high cost per procedure rather than unusually high utilization.
+
+Key findings:
+
+- The four highest-cost outpatient procedures account for approximately **86% of outpatient allowed cost**
+- Out-of-network services for these procedures cost approximately **20% more** than comparable in-network services
+- Geographic cost variation is smaller, generally around **5% to 10%** after controlling for procedure and network status
+- Individual provider comparisons are limited by sparse procedure volume
+- Existing out-of-network utilization among the four highest-cost procedures represents approximately **$787K in modeled cost reduction opportunity**
+
+#### Recommendation
+Reduce out-of-network utilization for the four highest-cost outpatient procedures by **25% next quarter** by steering appropriate services toward in-network providers. Based on observed cost differences, this represents approximately **$197K in modeled savings**.
 
 ## Dataset
 
@@ -95,21 +108,6 @@ Key dashboard components include:
 
 **[View the Interactive Tableau Dashboard](https://public.tableau.com/shared/YT7JG4G57?:display_count=n&:origin=viz_share_link)**
 
-## Analysis & Key Findings
-
-The analysis identified **Outpatient Procedure** as the largest allowed cost category, accounting for approximately **27% of total allowed cost**. The main driver was high cost per procedure rather than unusually high utilization.
-
-Key findings:
-
-- The four highest-cost outpatient procedures account for approximately **86% of outpatient allowed cost**
-- Out-of-network services for these procedures cost approximately **20% more** than comparable in-network services
-- Geographic cost variation is smaller, generally around **5% to 10%** after controlling for procedure and network status
-- Individual provider comparisons are limited by sparse procedure volume
-- Existing out-of-network utilization among the four highest-cost procedures represents approximately **$787K in modeled cost reduction opportunity**
-
-### Recommendation
-
-Reduce out-of-network utilization for the four highest-cost outpatient procedures by **25% next quarter** by steering appropriate services toward in-network providers. Based on observed cost differences, this represents approximately **$197K in modeled savings**.
 
 ## Tools & Technologies
 
