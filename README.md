@@ -1,8 +1,17 @@
-# Healthcare Claims Intelligence
+![Healthcare Claims Intelligence](assets/README%20header.png)
 
 ## Overview
 
 Healthcare Claims Intelligence is a healthcare analytics portfolio project focused on identifying claims cost drivers and opportunities to reduce allowed costs using synthetic healthcare claims data.
+
+### Tableau Dashboard
+
+**[View the Interactive Tableau Dashboard](https://public.tableau.com/shared/YT7JG4G57?:display_count=n&:origin=viz_share_link)**
+
+The dashboard answers the primary business question:
+
+**How can we reduce allowed cost?**
+
 ## Dataset
 
 This project uses a synthetic healthcare claims dataset created specifically for the analysis. The data models healthcare claims activity across a five-year period and is structured around three primary datasets:
@@ -15,7 +24,32 @@ Supporting procedure and diagnosis reference tables were also created to maintai
 
 ## Project Structure
 
-### Data/
+### [Documentation](Documentation/)
+
+Contains supporting project documentation:
+
+- **[Data Model](Documentation/Data%20Model.md)** - Documents the analytical data model, dataset grain, keys, fields, and relationships
+- **[Business Rules](Documentation/Business%20Rules.md)** - Documents the rules governing enrollment, provider compatibility, clinical relationships, geography, and data integrity
+- **[Data Dictionary](Documentation/Data%20Dictionary.md)** - Documents dataset fields, definitions, and structure
+- **[Synthetic Data Generation](Documentation/Synthetic%20Data%20Generation.md)** - Documents the methodology and rules used to generate the synthetic healthcare data
+- **[Data Quality & Cleaning Log](Documentation/Data%20Quality%20%26%20Cleaning%20Log.md)** - Documents identified data quality issues, assessments, cleaning decisions, and validation results
+- **[Insights & Recommendations](Documentation/Insights%20%26%20Recommendations.md)** - Documents the business findings, modeled cost reduction opportunity, recommendation, and measurement plan
+
+### [Analysis](Analysis/)
+
+Contains the project's profiling, cleaning, analysis, and supporting code:
+
+- **[healthcare_profiling.ipynb](Analysis/healthcare_profiling.ipynb)** - Jupyter notebook containing data profiling and data quality assessment
+- **[healthcare_cleaning.ipynb](Analysis/healthcare_cleaning.ipynb)** - Jupyter notebook containing documented data cleaning, correction, and validation
+- **[healthcare_analysis.ipynb](Analysis/healthcare_analysis.ipynb)** - SQL and Python business analysis of healthcare claims costs, utilization, procedure concentration, provider characteristics, network status, geography, member patterns, and modeled cost reduction opportunities
+
+#### [Analysis/Scripts](Analysis/Scripts/)
+
+Contains supporting Python scripts used by the project:
+
+- **[data_generation_mapping.py](Analysis/Scripts/data_generation_mapping.py)** - Defines mappings used to constrain synthetic claim generation to clinically and operationally plausible combinations
+
+### [Data](Data/)
 
 Contains the original synthetic healthcare claims datasets, supporting reference data, and cleaned analysis-ready datasets:
 
@@ -25,7 +59,7 @@ Contains the original synthetic healthcare claims datasets, supporting reference
 - **procedure_reference.csv** - Reference data containing procedure codes, descriptions, service categories, and baseline allowed amounts
 - **diagnosis_reference.csv** - Reference data containing diagnosis codes, descriptions, and diagnosis groups
 
-### Data/Cleaned/
+#### [Data/Cleaned](Data/Cleaned/)
 
 Contains the cleaned and validated datasets produced from the documented profiling and cleaning process and used for downstream business analysis:
 
@@ -34,35 +68,19 @@ Contains the cleaned and validated datasets produced from the documented profili
 - **providers_clean.csv** - Cleaned and validated provider data used for provider, network, and geographic analysis
 - **healthcare_claims_tableau.csv** - Joined, analysis-ready dataset used as the primary Tableau dashboard data source
 
-### Analysis/
+### [Assets](assets/)
 
-Contains the project's analysis workspace:
+Contains images used in the project README:
 
-- **healthcare_profiling.ipynb** - Jupyter notebook containing data profiling and data quality assessment
-- **healthcare_cleaning.ipynb** - Jupyter notebook containing documented data cleaning, correction, and validation
-- **healthcare_analysis.ipynb** - SQL and Python business analysis of healthcare claims costs, utilization, procedure concentration, provider characteristics, network status, geography, member patterns, and modeled cost reduction opportunities
-
-### Documentation/
-
-Contains supporting documentation for the project:
-
-- **Data Model** - Documents the analytical data model, dataset grain, keys, fields, and relationships
-- **Business Rules** - Documents the rules governing enrollment, provider compatibility, clinical relationships, geography, and data integrity
-- **Data Dictionary** - Documents dataset fields, definitions, and structure
-- **Synthetic Data Generation** - Documents the methodology and rules used to generate the synthetic healthcare data
-- **Data Quality & Cleaning Log** - Documents identified data quality issues, assessments, cleaning decisions, and validation results
-- **Insights & Recommendations** - Documents the business findings, modeled cost reduction opportunity, recommendation, and measurement plan
+- **README header.png** - Project header image
+- **Dashboard 1.png** - Tableau dashboard preview
 
 ## Dashboard
 
-**Status: Complete**
-**Tableau Public:** https://public.tableau.com/shared/YT7JG4G57?:display_count=n&:origin=viz_share_link
-
 The Tableau dashboard translates the completed claims analysis into an interactive view focused on allowed cost trends, service category cost concentration, network-related cost differences, out-of-network excess cost, and modeled savings opportunities.
 
-The dashboard answers the primary business question: **How can we reduce allowed cost?**
-
 Key dashboard components include:
+
 - Total Allowed Cost, Claim Lines, Unique Members, and Outpatient Procedure Cost KPIs
 - Allowed cost trend over time
 - Allowed cost by service category
@@ -73,7 +91,9 @@ Key dashboard components include:
 
 ### Dashboard Preview
 
-*[Add final Healthcare Claims Intelligence dashboard screenshot here]*
+![Healthcare Claims Intelligence Tableau Dashboard](assets/Dashboard%201.png)
+
+**[View the Interactive Tableau Dashboard](https://public.tableau.com/shared/YT7JG4G57?:display_count=n&:origin=viz_share_link)**
 
 ## Analysis & Key Findings
 

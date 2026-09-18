@@ -1,0 +1,76 @@
+procedure_code,procedure_description,service_category,baseline_allowed_amount
+99202,"New patient office/outpatient visit, straightforward complexity",Primary Care,85
+99203,"New patient office/outpatient visit, low complexity",Primary Care,125
+99204,"New patient office/outpatient visit, moderate complexity",Primary Care,185
+99205,"New patient office/outpatient visit, high complexity",Primary Care,245
+99212,"Established patient office/outpatient visit, straightforward complexity",Primary Care,65
+99213,"Established patient office/outpatient visit, low complexity",Primary Care,100
+99214,"Established patient office/outpatient visit, moderate complexity",Primary Care,145
+99215,"Established patient office/outpatient visit, high complexity",Primary Care,205
+99242,"New/established outpatient consultation, straightforward complexity",Specialist Visit,140
+99243,"New/established outpatient consultation, low complexity",Specialist Visit,185
+99244,"New/established outpatient consultation, moderate complexity",Specialist Visit,245
+99245,"New/established outpatient consultation, high complexity",Specialist Visit,325
+92002,"Intermediate eye examination, new patient",Specialist Visit,115
+92004,"Comprehensive eye examination, new patient",Specialist Visit,175
+92012,"Intermediate eye examination, established patient",Specialist Visit,95
+92014,"Comprehensive eye examination, established patient",Specialist Visit,150
+99385,"Preventive medicine exam, new adult patient age 18-39",Preventive Care,170
+99386,"Preventive medicine exam, new adult patient age 40-64",Preventive Care,190
+99395,"Preventive medicine exam, established adult patient age 18-39",Preventive Care,145
+99396,"Preventive medicine exam, established adult patient age 40-64",Preventive Care,165
+G0438,"Annual wellness visit, initial",Preventive Care,175
+G0439,"Annual wellness visit, subsequent",Preventive Care,130
+99281,"Emergency department visit, level 1",Emergency,175
+99282,"Emergency department visit, level 2",Emergency,275
+99283,"Emergency department visit, level 3",Emergency,425
+99284,"Emergency department visit, level 4",Emergency,650
+99285,"Emergency department visit, level 5",Emergency,950
+92950,Cardiopulmonary resuscitation,Emergency,500
+S9083,Urgent care center global service,Urgent Care,175
+S9088,Services provided in an urgent care center,Urgent Care,75
+12001,"Simple repair of superficial wound, 2.5 cm or less",Urgent Care,225
+29125,Application of short arm splint,Urgent Care,160
+94640,Pressurized inhalation treatment for acute airway obstruction,Urgent Care,85
+80048,Basic metabolic panel,Laboratory,35
+80053,Comprehensive metabolic panel,Laboratory,45
+80061,Lipid panel,Laboratory,40
+81001,Urinalysis with microscopy,Laboratory,20
+83036,Hemoglobin A1c,Laboratory,30
+84443,Thyroid stimulating hormone test,Laboratory,35
+85025,Complete blood count with automated differential,Laboratory,30
+87086,Urine culture,Laboratory,35
+87491,Chlamydia amplified probe test,Laboratory,55
+87591,Gonorrhea amplified probe test,Laboratory,55
+71046,"Chest X-ray, two views",Imaging,75
+73030,"Shoulder X-ray, complete",Imaging,80
+73562,"Knee X-ray, three views",Imaging,85
+73610,"Ankle X-ray, complete",Imaging,80
+70450,CT head/brain without contrast,Imaging,350
+74177,CT abdomen and pelvis with contrast,Imaging,650
+70551,MRI brain without contrast,Imaging,800
+72148,MRI lumbar spine without contrast,Imaging,750
+45378,Diagnostic colonoscopy,Outpatient Procedure,850
+43235,Diagnostic upper gastrointestinal endoscopy,Outpatient Procedure,700
+29881,Knee arthroscopy with meniscectomy,Outpatient Procedure,3200
+66984,Cataract removal with intraocular lens insertion,Outpatient Procedure,2400
+47562,Laparoscopic cholecystectomy,Outpatient Procedure,4800
+49591,"Repair of anterior abdominal hernia, initial, less than 3 cm",Outpatient Procedure,3000
+20610,Major joint or bursa injection/aspiration,Outpatient Procedure,140
+20552,"Trigger point injection, one or two muscles",Outpatient Procedure,110
+17000,Destruction of first premalignant skin lesion,Outpatient Procedure,120
+11102,"Tangential skin biopsy, single lesion",Outpatient Procedure,160
+99221,"Initial hospital inpatient/observation care, lower complexity",Inpatient,325
+99222,"Initial hospital inpatient/observation care, moderate complexity",Inpatient,450
+99223,"Initial hospital inpatient/observation care, high complexity",Inpatient,600
+99231,"Subsequent hospital inpatient/observation care, lower complexity",Inpatient,175
+99232,"Subsequent hospital inpatient/observation care, moderate complexity",Inpatient,250
+99233,"Subsequent hospital inpatient/observation care, high complexity",Inpatient,350
+97110,Therapeutic exercises,Therapy,95
+97112,Neuromuscular reeducation,Therapy,100
+97116,Gait training therapy,Therapy,90
+97140,Manual therapy techniques,Therapy,95
+97530,Therapeutic activities,Therapy,100
+97535,Self-care/home management training,Therapy,90
+97161,"Physical therapy evaluation, low complexity",Therapy,125
+97162,"Physical therapy evaluation, moderate complexity",Therapy,155

@@ -1,0 +1,51 @@
+diagnosis_code,diagnosis_description,diagnosis_group
+I10,Essential (primary) hypertension,Hypertension / Cardiovascular
+I25.10,Atherosclerotic heart disease of native coronary artery without angina pectoris,Hypertension / Cardiovascular
+I48.91,Unspecified atrial fibrillation,Hypertension / Cardiovascular
+I50.9,"Heart failure, unspecified",Hypertension / Cardiovascular
+E78.5,"Hyperlipidemia, unspecified",Hypertension / Cardiovascular
+E11.9,Type 2 diabetes mellitus without complications,Diabetes / Endocrine
+E11.65,Type 2 diabetes mellitus with hyperglycemia,Diabetes / Endocrine
+E03.9,"Hypothyroidism, unspecified",Diabetes / Endocrine
+E66.9,"Obesity, unspecified",Diabetes / Endocrine
+E55.9,"Vitamin D deficiency, unspecified",Diabetes / Endocrine
+J45.909,"Unspecified asthma, uncomplicated",Respiratory
+J44.9,"Chronic obstructive pulmonary disease, unspecified",Respiratory
+J06.9,"Acute upper respiratory infection, unspecified",Respiratory
+J20.9,"Acute bronchitis, unspecified",Respiratory
+J18.9,"Pneumonia, unspecified organism",Respiratory
+M54.50,"Low back pain, unspecified",Musculoskeletal
+M25.561,Pain in right knee,Musculoskeletal
+M25.562,Pain in left knee,Musculoskeletal
+M17.9,"Osteoarthritis of knee, unspecified",Musculoskeletal
+M25.519,Pain in unspecified shoulder,Musculoskeletal
+K21.9,Gastro-esophageal reflux disease without esophagitis,Gastrointestinal
+K59.00,"Constipation, unspecified",Gastrointestinal
+K52.9,"Noninfective gastroenteritis and colitis, unspecified",Gastrointestinal
+K80.20,Calculus of gallbladder without cholecystitis without obstruction,Gastrointestinal
+R10.9,Unspecified abdominal pain,Gastrointestinal
+F41.9,"Anxiety disorder, unspecified",Mental / Behavioral Health
+F32.A,"Depression, unspecified",Mental / Behavioral Health
+F33.9,"Major depressive disorder, recurrent, unspecified",Mental / Behavioral Health
+F90.9,"Attention-deficit hyperactivity disorder, unspecified type",Mental / Behavioral Health
+G47.00,"Insomnia, unspecified",Mental / Behavioral Health
+U07.1,COVID-19,Infectious Disease
+J10.1,Influenza due to other identified influenza virus with respiratory manifestations,Infectious Disease
+N39.0,"Urinary tract infection, site not specified",Infectious Disease
+B34.9,"Viral infection, unspecified",Infectious Disease
+A09,"Infectious gastroenteritis and colitis, unspecified",Infectious Disease
+S93.401A,"Sprain of unspecified ligament of right ankle, initial encounter",Injury
+S93.402A,"Sprain of unspecified ligament of left ankle, initial encounter",Injury
+S61.219A,"Laceration without foreign body of unspecified finger, initial encounter",Injury
+S80.00XA,"Contusion of unspecified knee, initial encounter",Injury
+S39.012A,"Strain of muscle, fascia and tendon of lower back, initial encounter",Injury
+G43.909,"Migraine, unspecified, not intractable, without status migrainosus",Neurological
+G44.209,"Tension-type headache, unspecified, not intractable",Neurological
+G56.00,"Carpal tunnel syndrome, unspecified upper limb",Neurological
+R42,Dizziness and giddiness,Neurological
+R20.2,Paresthesia of skin,Neurological
+R53.83,Other fatigue,General / Symptoms
+R50.9,"Fever, unspecified",General / Symptoms
+R05.9,"Cough, unspecified",General / Symptoms
+R11.2,"Nausea with vomiting, unspecified",General / Symptoms
+Z00.00,General adult medical examination without abnormal findings,General / Symptoms
