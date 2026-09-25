@@ -6,7 +6,7 @@ Healthcare Claims Intelligence is a healthcare analytics portfolio project focus
 
 ### Tableau Dashboard
 
-**[View the Interactive Tableau Dashboard](https://public.tableau.com/shared/YT7JG4G57?:display_count=n&:origin=viz_share_link)**
+**[View the Interactive Tableau Dashboard](https://malcolmjconnor.com/projects/healthcare-claims)**
 
 ### Business Question:
 **How can we reduce allowed cost?**
