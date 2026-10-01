@@ -16,20 +16,20 @@ The analysis identified **Outpatient Procedure** as the largest allowed cost cat
 
 Key findings:
 
-- The four highest-cost outpatient procedures account for approximately **86% of outpatient allowed cost**
+- The four highest cost outpatient procedures account for approximately **86% of outpatient allowed cost**
 - Out-of-network services for these procedures cost approximately **20% more** than comparable in-network services
 - Geographic cost variation is smaller, generally around **5% to 10%** after controlling for procedure and network status
 - Individual provider comparisons are limited by sparse procedure volume
-- Existing out-of-network utilization among the four highest-cost procedures represents approximately **$787K in modeled cost reduction opportunity**
+- Existing out-of-network utilization among the four highest cost procedures represents approximately **$787K in modeled cost reduction opportunity**
 
 #### Recommendation
-Reduce out-of-network utilization for the four highest-cost outpatient procedures by **25% next quarter** by steering appropriate services toward in-network providers. Based on observed cost differences, this represents approximately **$197K in modeled savings**.
+Reduce out-of-network utilization for the four highest cost outpatient procedures by **25% next quarter** by steering appropriate services toward in-network providers. Based on observed cost differences, this represents approximately **$197K in modeled savings**.
 
 ## Dataset
 
-This project uses a synthetic healthcare claims dataset created specifically for the analysis. The data models healthcare claims activity across a five-year period and is structured around three primary datasets:
+This project uses a synthetic healthcare claims dataset created specifically for the analysis. The data models healthcare claims activity across a five year period and is structured around three primary datasets:
 
-- **Claims:** Service-level healthcare claims including procedure, diagnosis, place of service, service category, and allowed amount.
+- **Claims:** Service level healthcare claims including procedure, diagnosis, place of service, service category, and allowed amount.
 - **Members:** Member demographic and enrollment information.
 - **Providers:** Provider attributes including provider type, specialty, state, and network status.
 
@@ -64,7 +64,7 @@ Contains supporting Python scripts used by the project:
 
 ### [Data](Data/)
 
-Contains the original synthetic healthcare claims datasets, supporting reference data, and cleaned analysis-ready datasets:
+Contains the original synthetic healthcare claims datasets, supporting reference data, and cleaned analysis ready datasets:
 
 - **claims.csv** - Original synthetic healthcare claims dataset preserved unchanged
 - **members.csv** - Original synthetic member demographic and enrollment dataset preserved unchanged
@@ -77,9 +77,9 @@ Contains the original synthetic healthcare claims datasets, supporting reference
 Contains the cleaned and validated datasets produced from the documented profiling and cleaning process and used for downstream business analysis:
 
 - **claims_clean.csv** - Cleaned and validated healthcare claims data used for cost and utilization analysis
-- **members_clean.csv** - Cleaned and validated member data used for member-level analysis
+- **members_clean.csv** - Cleaned and validated member data used for member level analysis
 - **providers_clean.csv** - Cleaned and validated provider data used for provider, network, and geographic analysis
-- **healthcare_claims_tableau.csv** - Joined, analysis-ready dataset used as the primary Tableau dashboard data source
+- **healthcare_claims_tableau.csv** - Joined, analysis ready dataset used as the primary Tableau dashboard data source
 
 ### [Assets](assets/)
 
@@ -90,7 +90,7 @@ Contains images used in the project README:
 
 ## Dashboard
 
-The Tableau dashboard translates the completed claims analysis into an interactive view focused on allowed cost trends, service category cost concentration, network-related cost differences, out-of-network excess cost, and modeled savings opportunities.
+The Tableau dashboard translates the completed claims analysis into an interactive view focused on allowed cost trends, service category cost concentration, network related cost differences, out-of-network excess cost, and modeled savings opportunities.
 
 Key dashboard components include:
 
